@@ -63,6 +63,16 @@ namespace RaceTeamManagement.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Equipes {
+            get {
+                object obj = ResourceManager.GetObject("Equipes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Tela_Inicial {
             get {
                 object obj = ResourceManager.GetObject("Tela Inicial", resourceCulture);
